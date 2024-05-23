@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "right_header_menus",
+  "info": {
+    "singularName": "right-header-menu",
+    "pluralName": "right-header-menus",
+    "displayName": "Right Header menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "menu_image_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ]
+    },
+    "redirect_link": {
+      "type": "string"
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header-menu.menu"
+    }
+  }
+}

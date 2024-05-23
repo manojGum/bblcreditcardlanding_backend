@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_brands_partner_brands_partners",
+  "info": {
+    "displayName": "Brands Partner",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brand_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

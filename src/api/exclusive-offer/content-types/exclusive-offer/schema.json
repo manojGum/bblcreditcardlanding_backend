@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exclusive_offers",
+  "info": {
+    "singularName": "exclusive-offer",
+    "pluralName": "exclusive-offers",
+    "displayName": "Exclusive Offers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "offers": {
+      "type": "string",
+      "required": true
+    },
+    "offer_content": {
+      "type": "string",
+      "required": false
+    },
+    "is_available": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "exclusive_offer_type": {
+      "type": "enumeration",
+      "enum": [
+        "All",
+        "Dining",
+        "Movies",
+        "Travel"
+      ],
+      "required": true
+    },
+    "card_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::card-type.card-type"
+    }
+  }
+}

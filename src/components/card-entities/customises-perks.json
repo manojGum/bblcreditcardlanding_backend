@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_card_entities_customises_perks",
+  "info": {
+    "displayName": "Customises perks",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dis_heading": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-entities.customises-content"
+    }
+  }
+}

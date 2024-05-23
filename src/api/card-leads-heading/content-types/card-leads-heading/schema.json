@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "card_leads_headings",
+  "info": {
+    "singularName": "card-leads-heading",
+    "pluralName": "card-leads-headings",
+    "displayName": "Card Leads Heading",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "apply_card_leads_heading": {
+      "type": "text"
+    },
+    "card_leads_heading": {
+      "type": "text"
+    }
+  }
+}

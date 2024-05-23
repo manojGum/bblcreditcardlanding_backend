@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packed_benefits",
+  "info": {
+    "singularName": "packed-benefit",
+    "pluralName": "packed-benefits",
+    "displayName": "Packed Benefits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card-type.card-type"
+    },
+    "pack_benefit_title": {
+      "type": "string",
+      "required": false
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-benefits.benefits",
+      "required": false
+    }
+  }
+}

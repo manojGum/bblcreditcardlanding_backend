@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_header_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ]
+    },
+    "menu_link_title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

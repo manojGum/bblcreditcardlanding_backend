@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_benefits_benefits",
+  "info": {
+    "displayName": "Landing Benefits",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "benefit_images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "other_benefits": {
+      "type": "string"
+    }
+  }
+}

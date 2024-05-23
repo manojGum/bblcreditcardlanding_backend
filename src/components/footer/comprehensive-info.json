@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_comprehensive_infos",
+  "info": {
+    "displayName": "comprehensive_info",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comprehensive_info": {
+      "type": "string"
+    },
+    "page_section_options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer-section-option"
+    }
+  }
+}

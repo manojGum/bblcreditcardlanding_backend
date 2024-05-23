@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_card_compare_features_card_compare_features",
+  "info": {
+    "displayName": "Card Compare Features",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "enumeration",
+      "enum": [
+        "base_earn_rate",
+        "accelerated_reward_points",
+        "activation_benefit",
+        "milestone_benefit",
+        "airport_lounge_benefit",
+        "concierge_service",
+        "meet_greet_airport",
+        "movie_offer",
+        "dining_offer",
+        "fuel_surcharge_waiver",
+        "emi_offer",
+        "golf_offer",
+        "insurance_benefits",
+        "joining_fee",
+        "annual_fee",
+        "interest_rate",
+        "foreign_currency",
+        "cash_withdrawal_fee"
+      ]
+    },
+    "feature_value": {
+      "type": "string"
+    },
+    "feature_additional_value": {
+      "type": "string"
+    }
+  }
+}

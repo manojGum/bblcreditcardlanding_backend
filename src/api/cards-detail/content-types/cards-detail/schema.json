@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards_details",
+  "info": {
+    "singularName": "cards-detail",
+    "pluralName": "cards-details",
+    "displayName": "Cards Details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_details_heading": {
+      "type": "string",
+      "required": true
+    },
+    "card_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "remarkable_heading": {
+      "type": "string",
+      "required": false
+    },
+    "remarkable_features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "remarkable-features.remarkable-features"
+    },
+    "card_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card-type.card-type"
+    },
+    "other_feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-entities.other-discount",
+      "required": false
+    },
+    "card_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "earn_rewards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-entities.earn-rewards",
+      "required": false
+    },
+    "apply_now": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "check_eligibility_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "customises_perks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-entities.customises-perks"
+    }
+  }
+}

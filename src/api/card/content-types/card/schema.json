@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "Cards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "features_card_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preview_card_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card_name_heading": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-entities.card"
+    },
+    "card_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card-type.card-type"
+    },
+    "compare_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "compare_title": {
+      "type": "string"
+    },
+    "get_now_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "view_details_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "card_leads_apply_now": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    },
+    "know_more": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    }
+  }
+}

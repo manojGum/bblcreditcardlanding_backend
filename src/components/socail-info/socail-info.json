@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_socail_info_socail_infos",
+  "info": {
+    "displayName": "socail_info",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "socail_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

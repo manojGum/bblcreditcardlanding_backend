@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_card_entities_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "joining_title": {
+      "type": "string"
+    },
+    "joining_value": {
+      "type": "string",
+      "required": true
+    },
+    "annual_title": {
+      "type": "string",
+      "required": true
+    },
+    "annual_value": {
+      "type": "string"
+    },
+    "reward_title": {
+      "type": "string",
+      "required": true
+    },
+    "reward_value": {
+      "type": "string",
+      "required": true
+    },
+    "cash_back_title": {
+      "type": "string",
+      "required": true
+    },
+    "cash_back_value": {
+      "type": "string",
+      "required": true
+    },
+    "discount_title": {
+      "type": "string"
+    },
+    "discount_value": {
+      "type": "string"
+    }
+  }
+}

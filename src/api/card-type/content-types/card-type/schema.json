@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_types",
+  "info": {
+    "singularName": "card-type",
+    "pluralName": "card-types",
+    "displayName": "Card Types",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_type": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_remarkable_features_remarkable_features",
+  "info": {
+    "displayName": "Remarkable Features",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "remarkable_title": {
+      "type": "string",
+      "required": true
+    },
+    "remarkable_content": {
+      "type": "string",
+      "required": true
+    },
+    "remarkable_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

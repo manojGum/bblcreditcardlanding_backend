@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_card_entities_earn_rewards",
+  "info": {
+    "displayName": "Earn Rewards",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reward_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "reward_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "reward_heading": {
+      "type": "string",
+      "required": true
+    },
+    "rew_discount": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-entities.discount",
+      "required": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links",
+      "required": false
+    }
+  }
+}

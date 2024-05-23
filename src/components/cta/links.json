@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "CTA",
+    "icon": "rotate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta_type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "required": false
+    },
+    "cta_url": {
+      "type": "string",
+      "required": false
+    },
+    "cta_title": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

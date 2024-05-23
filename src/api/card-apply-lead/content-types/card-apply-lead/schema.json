@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_apply_leads",
+  "info": {
+    "singularName": "card-apply-lead",
+    "pluralName": "card-apply-leads",
+    "displayName": "Card Apply Leads",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "card_type": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "customField",
+      "options": {
+        "uuid-format": "^[A-Za-z0-9]{15}$",
+        "disable-regenerate": false
+      },
+      "customField": "plugin::strapi-advanced-uuid.uuid"
+    }
+  }
+}

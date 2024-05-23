@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_benefits",
+  "info": {
+    "singularName": "landing-benefit",
+    "pluralName": "landing-benefits",
+    "displayName": "Landing Benefits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "benefits_details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-benefits.benefits",
+      "required": false
+    }
+  }
+}

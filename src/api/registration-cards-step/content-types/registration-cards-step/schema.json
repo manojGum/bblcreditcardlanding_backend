@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registration_cards_steps",
+  "info": {
+    "singularName": "registration-cards-step",
+    "pluralName": "registration-cards-steps",
+    "displayName": "Registration cards steps",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card-type.card-type"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "registration_steps": {
+      "displayName": "Registration Steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "registration-steps.registration-steps"
+    }
+  }
+}

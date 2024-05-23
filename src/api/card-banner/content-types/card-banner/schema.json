@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_banners",
+  "info": {
+    "singularName": "card-banner",
+    "pluralName": "card-banners",
+    "displayName": "Card Banners",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "top_title": {
+      "type": "string",
+      "required": false
+    },
+    "bottom_title": {
+      "type": "string",
+      "required": false
+    },
+    "card_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::card-type.card-type"
+    },
+    "card_bg_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "card_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

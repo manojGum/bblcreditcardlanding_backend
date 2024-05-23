@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_card_entities_customises_contents",
+  "info": {
+    "displayName": "customises_content",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

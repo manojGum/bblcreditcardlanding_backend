@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footer_section_options",
+  "info": {
+    "displayName": "Footer Section Option",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page_section_options": {
+      "type": "string"
+    },
+    "page": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.pages"
+    }
+  }
+}

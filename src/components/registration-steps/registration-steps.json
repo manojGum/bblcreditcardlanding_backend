@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_registration_steps_reg_steps",
+  "info": {
+    "displayName": "Registration Steps",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.links"
+    }
+  }
+}

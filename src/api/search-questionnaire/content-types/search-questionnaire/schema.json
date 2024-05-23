@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_questionnaires",
+  "info": {
+    "singularName": "search-questionnaire",
+    "pluralName": "search-questionnaires",
+    "displayName": "Search Questionnaires",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "search_tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::search-tag.search-tag",
+      "inversedBy": "search_questionnaires"
+    }
+  }
+}

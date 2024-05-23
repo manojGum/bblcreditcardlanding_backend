@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_leads",
+  "info": {
+    "singularName": "card-lead",
+    "pluralName": "card-leads",
+    "displayName": "Card Leads",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "pan": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "pin_code": {
+      "type": "string",
+      "maxLength": 6
+    }
+  }
+}
